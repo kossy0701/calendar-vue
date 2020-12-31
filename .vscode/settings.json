@@ -1,0 +1,50 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": true,
+  "html.validate.scripts": false,
+  "html.validate.styles": false,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.validation.script": true,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "editor.codeActionOnSaveTimeout": 2000,
+  "editor.codeActionOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "typescript"
+  ],
+
+  "cSpell.words": ["vuex"],
+  "cSpell.enableFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "scss",
+    "text",
+    "typescript",
+    "vue"
+  ],
+  "cSpell.languageSettings": [
+    {
+      "languageId": "vue",
+      "dictionaries": ["html", "fonts", "typescript", "node", "css"]
+    }
+  ]
+}
