@@ -6,9 +6,9 @@ module.exports = {
       true,
       {
         ignorePseudoElements: ['v-deep']
-      },
+      }
     ],
     'order/order': ['custom-properties', 'declarations'],
     'order/properties-alphabetical-order': true
   }
-};
+}

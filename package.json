@@ -11,7 +11,7 @@
     "lint:scss": "stylelint ./src/**/*.{vue,scss} --fix"
   },
   "lint-staged": {
-    "*.ts": [
+    "*.{js, ts}": [
       "npm run lint",
       "git add"
     ],
